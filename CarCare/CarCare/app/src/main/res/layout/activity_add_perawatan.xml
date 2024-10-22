@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foto_data_perawat"
+    tools:context=".AddPerawatan">
+
+    <ImageView
+        android:id="@+id/add_m_return_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.911"
+        app:srcCompat="@drawable/back" />
+
+    <Button
+        android:id="@+id/add_m_goto_md_button"
+        android:layout_width="202sp"
+        android:layout_height="55sp"
+        android:layout_marginStart="4dp"
+        android:backgroundTint="#808080"
+        android:text="Data Perawatan"
+        app:layout_constraintEnd_toStartOf="@+id/add_m_goto_vd_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/add_m_goto_vd_button"
+        android:layout_width="205sp"
+        android:layout_height="55sp"
+        android:backgroundTint="#808080"
+        android:text="Data Kendaraan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/add_m_goto_add_md_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="+ Tambahkan Perawatan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.295" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

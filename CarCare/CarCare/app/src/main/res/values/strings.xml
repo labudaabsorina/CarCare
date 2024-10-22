@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CarCare</string>
+    <string name="register">DAFTAR</string>
+    <string name="name_user">Nama</string>
+    <string name="email_user">Email</string>
+    <string name="password_user">Kata Sandi</string>
+    <string name="confirm_password_user">Ulang Kata Sandi</string>
+    <string name="goto_login_text">Sudah punya akun? Masuk</string>
+    <string name="login">MASUK</string>
+    <string name="register_info_text">Tidak Punya Akun?</string>
+    <string name="logout">Keluar</string>
+    <string name="go_back">Kembali</string>
+    <string name="logout_info_text">Yakin Ingin Keluar?</string>
+    <string name="user_name">Nama Pengguna</string>
+    <string name="enter_email">Masukkan Email</string>
+    <string name="enter_password">Masukkan Kata Sandi</string>
+    <string name="login_success">Masuk Berhasil</string>
+    <string name="login_failed">Masuk Gagal</string>
+    <string name="save_text">SIMPAN</string>
+    <string name="brand">Merek</string>
+    <string name="model">Model</string>
+    <string name="year">Tahun</string>
+</resources>

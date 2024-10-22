@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/masukkandataperawatan"
+    tools:context=".MasukanDataPerawatan">
+
+    <Button
+        android:id="@+id/input_md_return_button"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:backgroundTint="#2B4FBD"
+        android:text="@string/go_back"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818" />
+
+    <EditText
+        android:id="@+id/input_md_note_input"
+        android:layout_width="258dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="Catatan"
+        android:inputType="textLongMessage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543" />
+
+    <Button
+        android:id="@+id/input_md_goto_md_button"
+        android:layout_width="202sp"
+        android:layout_height="55sp"
+        android:layout_marginStart="4dp"
+        android:backgroundTint="#808080"
+        android:text="Data Perawatan"
+        app:layout_constraintEnd_toStartOf="@+id/input_md_goto_vd_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/input_md_goto_vd_button"
+        android:layout_width="205sp"
+        android:layout_height="55sp"
+        android:backgroundTint="#808080"
+        android:text="Data Kendaraan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_md_type_input"
+        android:layout_width="265dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="Jenis"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23" />
+
+    <EditText
+        android:id="@+id/input_md_dates_input"
+        android:layout_width="260dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Tanggal"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <EditText
+        android:id="@+id/input_md_price_input"
+        android:layout_width="258dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="Biaya"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.437" />
+
+    <Button
+        android:id="@+id/input_md_save_button"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:backgroundTint="#21A216"
+        android:hint="@string/save_text"
+        android:textSize="20sp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
